@@ -1,0 +1,51 @@
+/* Base Typography */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+header img {
+  border: 4px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Headings */
+h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #003366;
+}
+
+/* Service Titles */
+h5 {
+  color: #007bff;
+  font-weight: 500;
+}
+
+/* Link Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #002b55;
+  color: #ffffff;
+}
+
+/* Container Padding */
+section .container {
+  max-width: 850px;
+}
